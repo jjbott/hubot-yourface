@@ -1,6 +1,6 @@
 {
   "name": "hubot-yourface",
-  "description": "Your face is a hubut script. It replies with \"your face\"isms.",
+  "description": "Your face is a hubot script. It replies with \"your face\"isms.",
   "version": "0.0.0",
   "author": "joseph.bott",
   "license": "MIT",

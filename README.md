@@ -1,6 +1,6 @@
 # hubot-yourface
 
-Your face is a hubut script. It replies with "your face"isms.
+Your face is a hubot script. It replies with "your face"isms.
 
 See [`src/yourface.coffee`](src/yourface.coffee) for full documentation.
 
