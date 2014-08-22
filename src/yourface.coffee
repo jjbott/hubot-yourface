@@ -19,7 +19,7 @@ module.exports = (robot) ->
 		lower = message.match[1].toLowerCase()
 		if lower.indexOf("your face") < 0 and lower.indexOf("how") < 0 and lower.indexOf("why") < 0 and lower.indexOf("wtf") < 0 and lower.indexOf("when") < 0 and lower.indexOf("where") < 0
 			yourFace = "Your face " + message.match[2] + " " + message.match[3]
-			lastYourFace[(msg.message.user.name + '').toLowerCase()] = yourFace
+			lastYourFace[(message.message.user.name + '').toLowerCase()] = yourFace
 			if Math.random() <= (percent / 100.0)
 				setTimeout (->
 					message.send yourFace
@@ -29,7 +29,7 @@ module.exports = (robot) ->
 	robot.respond /how is (.*'s|my) face\??$/i, (message) ->
 		name = message.match[1].replace("'s", '')
 
-		name = msg.message.user.name + '' if message.match[1] == 'my'
+		name = message.message.user.name + '' if message.match[1] == 'my'
 
 		if lastYourFace[name.toLowerCase()]
 			message.send name + ": " + lastYourFace[name.toLowerCase()]
@@ -37,6 +37,5 @@ module.exports = (robot) ->
 			message.send "I don't know how " + name + "'s face is. :("
 	
 		return
-
 
 
