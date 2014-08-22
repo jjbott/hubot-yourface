@@ -1,0 +1,39 @@
+{
+  "name": "hubot-yourface",
+  "description": "Your face is a hubut script. It replies with \"your face\"isms.",
+  "version": "0.0.0",
+  "author": "joseph.bott",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts","yourface"],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jjbott/hubot-yourface.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/jjbott/hubot-yourface/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
