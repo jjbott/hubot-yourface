@@ -19,7 +19,7 @@ Then add **hubot-yourface** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> Well gosh this ubot-script is terrible
+user1>> Well gosh this hubot-script is terrible
 hubot>> user1: Your face is terrible.
 ```
 
