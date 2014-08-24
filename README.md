@@ -18,16 +18,16 @@ Then add **hubot-yourface** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-```
+<pre>
 user1>> Well gosh this hubot-script is terrible
 hubot>> user1: Your face is terrible.
-```
+</pre>
 
-```
+<pre>
 user1>> Yeah, I've had to make a lot of changes. It was pretty sketchy
 user2>> hubot: How is user1's face?
 hubot>> user1: Your face was pretty sketchy.
-```
+</pre>
 
 ## TODO
 
